@@ -4,15 +4,12 @@
  * @method parabola
  * 
  * @param {origin,target,element, time}
- * 
- * 
- * 
  */
 
 (function ($) {
     $.extend({
         "parabola":function (config) {
-			const INTERVAL = 15;
+	    const INTERVAL = 15;
 			
             var b = 0,//抛物线函数参数
                 x1, y1, x2, y2,
